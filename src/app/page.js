@@ -2,8 +2,17 @@ import { EjemploUseReducer } from "@/components/useContext/ejemploUseReducer";
 import ExampleUseLayout from "@/hooks/ejemplouseLayout";
 import {Stadistics} from "@/hooks/ejemploUseMemo";
 import { ParentComponent } from "@/hooks/ParentComponent";
+import { ComponentAvanzado } from "@/proptypes/ComponentAvanzado";
 import { ComponentBasic } from "@/proptypes/ComponentBasic";
 import Image from "next/image";
+
+const list = [
+  { id: 1, name: "React" },
+  { id: 2, name: "Vue" },
+  { id: 3, name: "Angular" },
+  { id: 4, name: "Svelte" },
+  { id: 5, name: "Ember" },
+];
 
 export default function Home() {
   return (
@@ -12,7 +21,8 @@ export default function Home() {
       {/* <ExampleUseLayout />
       <Stadistics /> */}
       {/* <ParentComponent /> */}
-      <ComponentBasic texto="Hola mundo" />
+     {/*  <ComponentBasic texto="Hola mundo" /> */}
+    <ComponentAvanzado list={list} title={'Tecnologias'}/>
     </main>
   );
 }
