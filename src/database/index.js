@@ -1,0 +1,17 @@
+export const data = [
+    {id:1, amount: 45.75},
+    {id:2, amount: 15.75},
+    {id:3, amount: 25.75},
+    {id:4, amount: 35.75},
+    {id:5, amount: 55.75},
+    {id:6, amount: 65.75},
+    {id:7, amount: 75.75},
+    {id:8, amount: 85.75},
+    {id:9, amount: 95.75},
+    {id:10, amount: 105.75},
+    {id:11, amount: 115.75},
+    {id:12, amount: 125.75},
+    {id:13, amount: 135.75},
+    {id:14, amount: 145.75},
+    {id:15, amount: 155.75},
+]

@@ -1,0 +1,8 @@
+Es un hook que permite manejar estados similar al patron de redux.
+A diff de useState, gestiona un unico valor de estado y permite manejar estados mas complejos con logica mas estructurada.
+
+Toma dos argumentos, el primero es la funcion reductora que especifica como cambia el estado de respuesta de accion, 
+y el segundo argumento es el estado inicial.
+
+Llamar a la funcion reductora con una acción, se actualiza en funcion a la accion y los datos proporcionados.
+
