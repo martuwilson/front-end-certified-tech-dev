@@ -2,6 +2,7 @@ import { EjemploUseReducer } from "@/components/useContext/ejemploUseReducer";
 import ExampleUseLayout from "@/hooks/ejemplouseLayout";
 import {Stadistics} from "@/hooks/ejemploUseMemo";
 import { ParentComponent } from "@/hooks/ParentComponent";
+import { ComponentBasic } from "@/proptypes/ComponentBasic";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
       {/* <EjemploUseReducer /> */}
       {/* <ExampleUseLayout />
       <Stadistics /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <ComponentBasic texto="Hola mundo" />
     </main>
   );
 }
