@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: components/useContext/Button.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,34 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: components/useContext/Button.jsx</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from "react"
+/**
+ * Boton reutilizable
+ * @function
+ * @param {object} props - Las props para el componente
+ * @param {React.ReactNode} props.children - Los hijos del componente, contenido interno que va en las tags del button
+ * @returns {JSX.Element} 
+ */
 
 
-    <h3> </h3>
+export const Button = ({children}) =>{
 
 
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+    return (
+        &lt;button className="btn btn-primary">{children}&lt;/button>
+    )
+}</code></pre>
+        </article>
+    </section>
 
 
 
