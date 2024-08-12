@@ -4,6 +4,7 @@ import {Stadistics} from "@/hooks/ejemploUseMemo";
 import { ParentComponent } from "@/hooks/ParentComponent";
 import { ComponentAvanzado } from "@/proptypes/ComponentAvanzado";
 import { ComponentBasic } from "@/proptypes/ComponentBasic";
+import { ComponenteConChildren } from "@/proptypes/ComponenteConChildren";
 import Image from "next/image";
 
 const list = [
@@ -22,7 +23,10 @@ export default function Home() {
       <Stadistics /> */}
       {/* <ParentComponent /> */}
      {/*  <ComponentBasic texto="Hola mundo" /> */}
-    <ComponentAvanzado list={list} title={'Tecnologias'}/>
+    {/* <ComponentAvanzado list={list} title={'Tecnologias'}/> */}
+    <ComponenteConChildren title="ComponenteConChildren">
+      <p>Contenido del componente que viene desde page.js</p>
+    </ComponenteConChildren>
     </main>
   );
 }
